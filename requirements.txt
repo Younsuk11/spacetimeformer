@@ -1,4 +1,5 @@
 Cython>=0.22
+torch==1.11.0 
 cmdstanpy==0.9.68
 pystan~=2.19.1.1
 numpy>=1.15.4
@@ -6,9 +7,8 @@ pandas>=1.0.4
 matplotlib>=2.0.0
 convertdate>=2.1.2
 python-dateutil>=2.8.0
-performer-pytorch
-tqdm>=4.36.1
-nystrom-attention
+performer-pytorch # performer-pytorch-1.1.4
+tqdm>=4.36.1 #tqdm-4.66.1
 pytorch-lightning==1.6
 netCDF4
 scikit-learn
@@ -20,3 +20,4 @@ einops
 chardet
 opt_einsum
 torchmetrics==0.5.1
+torchvision==0.12.1

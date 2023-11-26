@@ -48,6 +48,8 @@ class CSVTimeSeries:
                 self.data_path,
                 **read_csv_kwargs,
             )
+            # 수정
+            raw_df[time_col_name] = raw_df[time_col_name].map(lambda x: x[:-3])
 
         if drop_all_nan:
             raw_df.dropna(axis=0, how="any", inplace=True)

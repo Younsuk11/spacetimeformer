@@ -4,7 +4,7 @@ from . import metr_la
 from .datamodule import DataModule
 from .csv_dataset import *
 from . import synthetic
-from . import image_completion
+#from . import image_completion
 from . import copy_task
 from . import cont_copy_task
 from . import m4
